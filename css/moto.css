@@ -1,0 +1,47 @@
+body {
+    background:#FAEEFA;
+}
+
+header {
+    background: linear-gradient(#FAEEFA,#ff00ff2a,#FAEEFA);
+    height: 150px;
+}
+
+.titulo {
+    font-family: 'Raleway', sans-serif;
+    color: purple;
+    text-align: center;
+
+}
+
+#tit-2 {
+    color:purple;
+   text-shadow: 20px, 20px, 20px, purple;
+}
+
+.texto-principal {
+    font-family: 'Raleway', sans-serif;
+    color: purple;
+    text-align: left;
+    padding: 40px;
+}
+
+
+#tit {
+    font-family: 'Bangers', cursive;
+    font-family: 'Ranchers', cursive;
+    letter-spacing: 4px;
+}
+
+#gif {
+    width: 360px;
+    height: 360px;
+    position: relative;
+    left: 800px;
+    bottom: 100px;
+    transition: 1s all;
+}
+
+#gif:hover {
+    transform: scale(1.1);
+}
