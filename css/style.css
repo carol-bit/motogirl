@@ -3,6 +3,7 @@ body {
 }
 
 header {
+    background: #ac35ac91;
     height: 150px; 
     margin: 0px;
     box-shadow:  
@@ -80,9 +81,9 @@ strong {
 #gif {
     width: 360px;
     height: 360px;
-    position: absolute;
+    position: relative;
     left: 800px;
-    bottom: 50px;
+    bottom: 300px;
     transition: 1s all;
 }
 
