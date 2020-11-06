@@ -1,58 +1,89 @@
 body {
-    background:#FAEEFA;
+    background: #FAEEFA;
 }
 
 header {
-    background: linear-gradient(#FAEEFA,#ff00ff2a,#FAEEFA);
+    /*background: linear-gradient(#FAEEFA,#ff00ff2a,#FAEEFA);*/ background: #ac35acad;
     height: 150px; 
-  
+    margin: 0px;
+    box-shadow:  
+    0px 0px 8px black,
+    0px 0px 8px#ac35acad,
+    0px 0px 8px #ac35acad,
+    0px 0px 8px #ac35acad;  
 }
 
 .titulo {
-    font-family: 'Raleway', sans-serif;
-    color: purple;
+    color:  #FAEEFA;
     text-align: left;
     margin-left: 30px;
-    margin-top: 20px;
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+}
+
+#tit {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    text-shadow: 
+    0px 0px 8px black,
+    0px 0px 8px#ac35acad,
+    0px 0px 8px #ac35acad,
+    0px 0px 8px #ac35acad;  
+   
 }
 
 #tit-2 {
-    color:purple;
-   text-shadow: 20px, 20px, 20px, purple;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    color: #FAEEFA;
+    text-shadow: 20px, 20px, 20px, purple;
+    top: 50px;
 }
 
-.texto-principal {
+.bolha {
     font-family: 'Raleway', sans-serif;
     padding: 40px;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     position: relative;
-    left: 10px;
+    left: 50px;
     border: solid 3px #FFFFFF;
     border-radius: 1000px;
     background: white;
+    transition: 1s all;
+    top: 60px;
+}
+
+.bolha:hover {
+    transform: scale(1.1);
+    box-shadow:  
+    0px 2px 8px black,
+    0px 10px 10px#ac35acad;
 }
 
 .texto {
     position: relative;
-    top: 40px;
+    top: 70px;
     text-align: center;
     color: purple;
     font-family: 'Raleway', sans-serif;
+    line-height: 25px;
 }
 
-
-#tit {
-font-family: 'Vast Shadow', cursive;
-    letter-spacing: 4px;
+strong {
+    font-weight: bolder;
 }
+
 
 #gif {
     width: 360px;
     height: 360px;
     position: absolute;
     left: 800px;
-    bottom: 100px;
+    bottom: 50px;
     transition: 1s all;
 }
 
@@ -62,8 +93,8 @@ font-family: 'Vast Shadow', cursive;
 
 nav {
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 50px;
+    right: 40px;
     bottom: 0px;
     margin: 20px, 10px, 20px, 20px;
     text-align: right;
@@ -81,8 +112,10 @@ nav a {
     font-style: 22px;
     text-decoration: none;
     font-size: 20px; 
-    color: purple; 
+    color:  #FAEEFA; 
     transition: 0.3s all;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 nav a:hover {
@@ -90,14 +123,32 @@ nav a:hover {
     transform: scale(1.2);
     text-decoration: underline; 
     text-shadow:
-       0px 0px 10px #FAEEFA,
-       0px 0px 10px#FAEEFA,
-       0px 0px 10px #FFFFFF,
-       0px 0px 10px #FFFFFF  
+       0px 0px 8px black,
+       0px 0px 8px#ac35acad,
+       0px 0px 8px #ac35acad,
+       0px 0px 8px #ac35acad;  
 }
 
 main {
    width: 100%;
-   height: 100%;
+   height: 500px;
    
+}
+
+
+/*pagina sobre*/
+#eu {
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    left: 10px;
+    border-radius: 1000px;
+    transition: 1s all;
+    top: 10px;
+}
+
+.apresentacao 
+{
+    position: relative;
+    left: 1000px;
 }
