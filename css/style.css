@@ -1,10 +1,12 @@
 body {
     background: #FAEEFA;
+    height: 100%;
 }
 
 header {
     background: #ac35ac91;
-    height: 150px; 
+    height: 200px; 
+    width: 100%;
     margin: 0px;
     box-shadow:  
     0px 0px 8px black,
@@ -44,7 +46,8 @@ header {
 }
 
 .bolha {
-    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    font-family: 'Space Grotesk', sans-serif;
     padding: 40px;
     width: 350px;
     height: 350px;
@@ -69,7 +72,7 @@ header {
     top: 70px;
     text-align: center;
     color: purple;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     line-height: 25px;
 }
 
@@ -82,7 +85,7 @@ strong {
     width: 360px;
     height: 360px;
     position: relative;
-    left: 800px;
+    left: 850px;
     bottom: 300px;
     transition: 1s all;
 }
@@ -147,8 +150,57 @@ main {
     top: 10px;
 }
 
-.apresentacao 
-{
+.sobre {   
+    height: 500px;
+    width: 550px;
     position: relative;
-    left: 1000px;
+    left: 600px;
+    bottom: 400px;
+    background:white ;
+}
+
+.quem-sou {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    color: #ac35acda;
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.sobre p {
+    text-align: left;
+    color: #ac35acda;
+    font-family: 'Raleway', sans-serif;
+    line-height: 25px;
+    padding: 10px;
+    margin: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+footer {
+    text-align: center;
+    background: purple;
+    margin: 0px;
+    position: relative;
+    top: 100px;
+   height: 200px;
+
+}
+
+.rodape {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 50px;
+}
+
+.rodape-texto {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 20px;
 }
