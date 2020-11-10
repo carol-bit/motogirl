@@ -1,5 +1,6 @@
 body {
     background: #FAEEFA;
+<<<<<<< HEAD
     height:auto;
     width: auto;
     overflow: scroll;
@@ -7,6 +8,12 @@ body {
 
 header {
     position: relative;
+=======
+    height: 100%;
+}
+
+header {
+>>>>>>> 4b8b833e1fbcb5f4582d31c1fe61d99d25926e1b
     background: #ac35ac91;
     height: 200px; 
     width: 100%;
@@ -98,15 +105,24 @@ strong {
 }
 
 nav {
+<<<<<<< HEAD
     position: relative;
+=======
+    position: absolute;
+>>>>>>> 4b8b833e1fbcb5f4582d31c1fe61d99d25926e1b
     top: 50px;
     right: 40px;
     bottom: 0px;
     margin: 20px, 10px, 20px, 20px;
     text-align: right;
+<<<<<<< HEAD
     height: 40px;
 }
 
+=======
+  
+}
+>>>>>>> 4b8b833e1fbcb5f4582d31c1fe61d99d25926e1b
 nav li{
     display: inline ;
     margin: 0 0 0 15px;
